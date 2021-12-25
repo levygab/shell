@@ -16,10 +16,19 @@ Spécificités de ce squelette:
 - utilisation de Gnu Readline
 - Scheme (interpréteur Guile; Javascript possible)
 
-Compilation et lancement des tests
+To compile : 
 ----------
+If you want to try the shell : 
+cd build
+make ensishell
+./ensishell
 
-cd ensimag-shell
+it is (almost) like a shell !
+
+
+
+To do the test : 
+
 cd build
 cmake ..
 make
