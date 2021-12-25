@@ -1,0 +1,67 @@
+Start testing: Oct 14 14:05 CEST
+----------------------------------------------------------
+1/1 Testing: UnitShellTests
+1/1 Test: UnitShellTests
+Command: "/home/gabi/Documents/ecole/sepc/le_shell/tests/allShellTests.rb"
+Directory: /home/gabi/Documents/ecole/sepc/le_shell/build
+"UnitShellTests" start time: Oct 14 14:05 CEST
+Output:
+----------------------------------------------------------
+Run options: --seed 36092
+
+# Running:
+
+..FFFFFFFF
+
+Finished in 8.786650s, 1.1381 runs/s, 1.1381 assertions/s.
+
+  1) Failure:
+Test3Jobs#test_inout [/home/gabi/Documents/ecole/sepc/le_shell/tests/testJobs.rb:25]:
+le ls n'a pas afficher la taille du fichier.
+Expected nil to not be nil.
+
+  2) Failure:
+Test1ForkExec#test_all [/home/gabi/Documents/ecole/sepc/le_shell/tests/testForkExec.rb:38]:
+Sortie incohérente pour 'seq 0 3'.
+Expected nil to not be nil.
+
+  3) Failure:
+Test1ForkExec#test_printf [/home/gabi/Documents/ecole/sepc/le_shell/tests/testForkExec.rb:44]:
+Sortie incohérente pour 'seq 0 3'.
+Expected nil to not be nil.
+
+  4) Failure:
+Test1ForkExec#test_seq [/home/gabi/Documents/ecole/sepc/le_shell/tests/testForkExec.rb:38]:
+Sortie incohérente pour 'seq 0 3'.
+Expected nil to not be nil.
+
+  5) Failure:
+Test2InOut#test_inoutpipe [/home/gabi/Documents/ecole/sepc/le_shell/tests/testInOut.rb:50]:
+cat titiExpect.txt titiExpect.txt n'a pas rendu deux fois le même entier à la suite.
+Expected nil to not be nil.
+
+  6) Failure:
+Test2InOut#test_parallelisme [/home/gabi/Documents/ecole/sepc/le_shell/tests/testInOut.rb:63]:
+le | ne semble pas parallèle.
+Expected nil to not be nil.
+
+  7) Failure:
+Test2InOut#test_inout [/home/gabi/Documents/ecole/sepc/le_shell/tests/testInOut.rb:27]:
+sortie incohérente pour ls -l.
+Expected nil to not be nil.
+
+  8) Failure:
+Test2InOut#test_pipe [/home/gabi/Documents/ecole/sepc/le_shell/tests/testInOut.rb:42]:
+sortie incohérente pour ls | wc -l.
+Expected nil to not be nil.
+
+10 runs, 10 assertions, 8 failures, 0 errors, 0 skips
+<end of output>
+Test time =   9.82 sec
+----------------------------------------------------------
+Test Failed.
+"UnitShellTests" end time: Oct 14 14:05 CEST
+"UnitShellTests" time elapsed: 00:00:09
+----------------------------------------------------------
+
+End testing: Oct 14 14:05 CEST

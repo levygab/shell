@@ -1,0 +1,7 @@
+/home/gabi/Documents/ecole/sepc/le_shell/build/CMakeFiles/package_source.dir
+/home/gabi/Documents/ecole/sepc/le_shell/build/CMakeFiles/rebuild_cache.dir
+/home/gabi/Documents/ecole/sepc/le_shell/build/CMakeFiles/package.dir
+/home/gabi/Documents/ecole/sepc/le_shell/build/CMakeFiles/check.dir
+/home/gabi/Documents/ecole/sepc/le_shell/build/CMakeFiles/edit_cache.dir
+/home/gabi/Documents/ecole/sepc/le_shell/build/CMakeFiles/test.dir
+/home/gabi/Documents/ecole/sepc/le_shell/build/CMakeFiles/ensishell.dir
